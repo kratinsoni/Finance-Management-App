@@ -6,7 +6,6 @@ function ResetPassword() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
-  const [open, setOpen] = useState(false);
 
   const navigate = useNavigate();
 
